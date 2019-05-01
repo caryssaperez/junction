@@ -1,3 +1,8 @@
+mod utils;
+
+use utils::diff::FileDiff;
+
 fn main() {
-    println!("Hello, world!");
+    let diff = FileDiff::new("fd");
+    // println!("{:?}", diff);
 }
